@@ -14,7 +14,7 @@ public class file_upload {
 		driver.get("https://webdriveruniversity.com/File-Upload/index.html");
 		driver.manage().window().maximize();
 		WebElement fileupload = driver.findElement(By.id("myFile"));
-		fileupload.sendKeys("C:\\Users\\Acer\\Desktop\\Automation\\fig1.mp4");
+		fileupload.sendKeys("C:\\Users\\Acer\\Desktop\\Automation\\Blue.dotx");
 		Thread.sleep(5000);
 		WebElement submitbutton = driver.findElement(By.id("submit-button"));
 		submitbutton.click();
